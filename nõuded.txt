@@ -1,0 +1,87 @@
+2.1 Klient 
+
+Kirjeldab panga klienti.
+
+Peab sisaldama:
+
+customer_id – kliendi ID
+
+name – nimi
+
+personal_code – isikukood
+
+phone – telefon
+
+email – e-post
+
+created_at – loomise kuupäev
+
+2.2 Konto 
+
+Kirjeldab kliendi pangakontot.
+
+Peab sisaldama:
+
+account_id – konto ID 
+
+account_number – konto number 
+
+balance – konto saldo
+
+customer_id – kliendi ID 
+
+status – konto staatus 
+
+created_at – loomise kuupäev
+
+2.3 Pangakaart 
+
+Kirjeldab pangakaarti.
+
+Peab sisaldama:
+
+card_id – kaardi ID 
+
+card_number – kaardi number 
+
+pin_code – PIN-kood
+
+account_id – konto ID 
+
+expiry_date – kaardi kehtivusaeg
+
+status – kaardi staatus
+
+2.4 ATM automaat
+
+Kirjeldab sularahaautomaati.
+
+Peab sisaldama:
+
+atm_id – ATM ID 
+
+location – asukoht
+
+status – automaadi staatus
+
+created_at – loomise kuupäev
+
+2.5 Tehing
+
+Kirjeldab tehinguid, mida tehakse ATM-is.
+
+Peab sisaldama:
+
+transaction_id – tehingu ID 
+
+transaction_type – tehingu tüüp 
+
+amount – summa
+
+account_id – konto ID 
+
+atm_id – ATM ID
+
+transaction_date – kuupäev ja kellaaeg
+
+status – tehingu staatus 
